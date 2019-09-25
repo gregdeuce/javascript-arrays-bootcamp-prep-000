@@ -2,7 +2,7 @@
     
        
 function addElementToBeginningOfArray([arr, ele]) {
-  return ele[...];
+  return [];
 }
     
 function destructivelyAddElementToBeginningOfArray([arr, ele]) {
