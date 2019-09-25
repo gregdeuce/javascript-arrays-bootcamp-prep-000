@@ -2,7 +2,6 @@
     
        
 function addElementToBeginningOfArray(array, element) {
-  var x = newArray();
   return [element, ...array];
 }
     
