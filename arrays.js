@@ -35,3 +35,10 @@ function removeElementFromBeginningOfArray(array) {
   array = array.slice();
   return array;
 }
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array = array.pop();
+  return array;
+}
+
+
